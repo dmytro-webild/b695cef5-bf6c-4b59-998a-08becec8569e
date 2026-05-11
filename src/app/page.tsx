@@ -54,19 +54,19 @@ export default function LandingPage() {
       testimonials={[
         {
           name: "Sarah Johnson",          handle: "@techcorp",          testimonial: "Benak Consulting provided us with exceptional talent that transformed our project roadmap.",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png?_wi=1"},
         {
           name: "Michael Chen",          handle: "@innovatelab",          testimonial: "Reliable communication and deep technical expertise every single time.",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png?_wi=2"},
         {
           name: "Emily Rodriguez",          handle: "@growthco",          testimonial: "They truly understand our staffing needs and deliver quality professionals fast.",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png?_wi=3"},
         {
           name: "David Kim",          handle: "@startupxyz",          testimonial: "An incredible consulting partner for long-term project support.",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png?_wi=4"},
         {
           name: "Alex Rivera",          handle: "@enterprisetech",          testimonial: "The best experience we have had with an IT consulting firm in years.",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png?_wi=5"},
       ]}
       buttons={[
         {
@@ -74,7 +74,7 @@ export default function LandingPage() {
         {
           text: "View Services",          href: "#services"},
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png?_wi=6"
       avatars={[
         {
           src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png",          alt: "Logo"},
@@ -102,7 +102,7 @@ export default function LandingPage() {
       description="Benak Consulting LLC is an IT staffing and consulting business focused on helping organizations connect with skilled technology professionals. With around 20 years of professional experience, our team understands the importance of reliable communication, qualified talent, and client-focused service."
       subdescription="We work with businesses that need technology support, consulting resources, or staffing assistance for ongoing operations and project-based needs. Our approach is formal, responsive, and built around long-term professional relationships."
       icon={Users}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png?_wi=7"
       mediaAnimation="slide-up"
     />
   </div>
@@ -116,19 +116,19 @@ export default function LandingPage() {
         {
           id: "f1",          title: "IT Staffing",          descriptions: [
             "Identifying qualified technology professionals for project-based, contract, and long-term staffing needs."],
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png",          imageAlt: "Service Image"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png?_wi=8",          imageAlt: "Service Image"},
         {
           id: "f2",          title: "IT Consulting",          descriptions: [
             "Planning, managing, and executing technology initiatives with experienced consulting resources."],
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png",          imageAlt: "Service Image"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png?_wi=9",          imageAlt: "Service Image"},
         {
           id: "f3",          title: "Reliable Support",          descriptions: [
             "Dependable service delivery built on 20 years of professional consulting experience."],
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png",          imageAlt: "Service Image"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png?_wi=10",          imageAlt: "Service Image"},
         {
           id: "f4",          title: "Technical Areas",          descriptions: [
             "Specialized support in Software Development, Database/Data, Cloud, Infrastructure, Business Analysis, and QA."],
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png",          imageAlt: "Service Image"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png?_wi=11",          imageAlt: "Service Image"},
       ]}
       title="Professional IT Services"
       description="Comprehensive technology solutions tailored to your business needs."
