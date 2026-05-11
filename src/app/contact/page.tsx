@@ -28,22 +28,21 @@ export default function ContactPage() {
         />
         <div className="pt-32 pb-16 px-6 max-w-4xl mx-auto">
           <h1 className="text-4xl font-bold mb-8">Contact Us</h1>
-          <div className="grid md:grid-cols-2 gap-12">
-            <div>
-              <h2 className="text-2xl font-semibold mb-4">Get in Touch</h2>
-              <p className="mb-2"><strong>Address:</strong> Suwanee, GA</p>
-              <p className="mb-2"><strong>Phone:</strong> 732-579-2932</p>
-              <p className="mb-2"><strong>Email:</strong> info@benakconsulting.com</p>
-              <p><strong>Hours:</strong> Mon-Fri, 9am - 5pm</p>
-            </div>
-            <form className="flex flex-col gap-4" onSubmit={(e) => e.preventDefault()}>
-              <input type="text" placeholder="Full Name" className="p-3 border rounded" required onChange={(e) => setFormData({...formData, name: e.target.value})} />
-              <input type="email" placeholder="Email" className="p-3 border rounded" required onChange={(e) => setFormData({...formData, email: e.target.value})} />
-              <input type="text" placeholder="Company/Subject" className="p-3 border rounded" required onChange={(e) => setFormData({...formData, subject: e.target.value})} />
-              <textarea placeholder="Message" rows={5} className="p-3 border rounded" required onChange={(e) => setFormData({...formData, message: e.target.value})} />
-              <button type="submit" className="p-3 rounded font-semibold">Send Message</button>
-            </form>
+          <div className="mb-12">
+            <h2 className="text-2xl font-semibold mb-4">Get in Touch</h2>
+            <p className="mb-2"><strong>Address:</strong> Suwanee, GA</p>
+            <p className="mb-2"><strong>Phone:</strong> 732-579-2932</p>
+            <p className="mb-2"><strong>Email:</strong> info@benakconsulting.com</p>
+            <p><strong>Hours:</strong> Mon-Fri, 9am - 5pm</p>
           </div>
+          <h2 className="text-2xl font-semibold mb-6">Send us an inquiry</h2>
+          <form className="flex flex-col gap-4" onSubmit={(e) => e.preventDefault()}>
+            <input type="text" placeholder="Full Name" className="p-3 border rounded" required onChange={(e) => setFormData({...formData, name: e.target.value})} />
+            <input type="email" placeholder="Email" className="p-3 border rounded" required onChange={(e) => setFormData({...formData, email: e.target.value})} />
+            <input type="text" placeholder="Company/Subject" className="p-3 border rounded" required onChange={(e) => setFormData({...formData, subject: e.target.value})} />
+            <textarea placeholder="Message" rows={5} className="p-3 border rounded" required onChange={(e) => setFormData({...formData, message: e.target.value})} />
+            <button type="submit" className="p-3 rounded font-semibold">Send Message</button>
+          </form>
         </div>
         <FooterLogoEmphasis
           columns={[{ items: [{ label: "Home", href: "/" }, { label: "Contact", href: "/contact" }] }]} 
