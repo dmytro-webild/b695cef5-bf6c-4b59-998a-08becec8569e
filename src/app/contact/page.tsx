@@ -30,7 +30,7 @@ export default function ContactPage() {
           <h1 className="text-4xl font-bold mb-8">Contact Us</h1>
           <div className="mb-12">
             <h2 className="text-2xl font-semibold mb-4">Get in Touch</h2>
-            <p className="mb-2"><strong>Address:</strong> Suwanee, GA</p>
+            <p className="mb-2"><strong>Address:</strong> 287 Rothbury Ct, Suwanee, GA 30024</p>
             <p className="mb-2"><strong>Phone:</strong> 732-579-2932</p>
             <p className="mb-2"><strong>Email:</strong> info@benakconsulting.com</p>
             <p><strong>Hours:</strong> Mon-Fri, 9am - 5pm</p>
