@@ -52,6 +52,7 @@ export default function LandingPage() {
         { text: "Contact Us", href: "/contact" },
         { text: "View Services", href: "#services" },
       ]}
+      background={{ variant: "plain" }}
       imageSrc="http://img.b2bpic.net/free-photo/two-business-woman-working-office-with-digital-tablet_1301-3550.jpg?_wi=1"
     />
   </div>
@@ -64,6 +65,7 @@ export default function LandingPage() {
       subdescription="We work with businesses that need technology support, consulting resources, or staffing assistance for ongoing operations and project-based needs."
       icon={Users}
       imageSrc="http://img.b2bpic.net/free-photo/showing-curious-data_1098-14123.jpg?_wi=1"
+      useInvertedBackground={false}
     />
   </div>
 
@@ -78,6 +80,7 @@ export default function LandingPage() {
       ]}
       title="Professional IT Services"
       description="Comprehensive technology solutions tailored to your business needs."
+      useInvertedBackground={false}
     />
   </div>
 
@@ -93,6 +96,7 @@ export default function LandingPage() {
       ]}
       title="Proven Results"
       description="Our experience delivers tangible value to our clients."
+      useInvertedBackground={false}
     />
   </div>
 
@@ -104,6 +108,7 @@ export default function LandingPage() {
       ratingAnimation="slide-up"
       avatarsAnimation="blur-reveal"
       avatars={[{ src: "https://i.pravatar.cc/100?u=1", alt: "Author avatar" }]}
+      useInvertedBackground={false}
     />
   </div>
 
@@ -117,6 +122,7 @@ export default function LandingPage() {
       title="Frequently Asked Questions"
       description="Answers to common inquiries."
       faqsAnimation="slide-up"
+      useInvertedBackground={false}
     />
   </div>
 
