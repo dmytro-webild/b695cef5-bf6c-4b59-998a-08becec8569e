@@ -2,7 +2,6 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactText from '@/components/sections/contact/ContactText';
 import FaqDouble from '@/components/sections/faq/FaqDouble';
 import FeatureCardTwentySeven from '@/components/sections/feature/FeatureCardTwentySeven';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
@@ -31,14 +30,10 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingOverlay
       navItems={[
-        {
-          name: "Home",          id: "hero"},
-        {
-          name: "About Us",          id: "about"},
-        {
-          name: "Services",          id: "services"},
-        {
-          name: "Contact",          id: "contact"},
+        { name: "Home", id: "hero" },
+        { name: "About Us", id: "about" },
+        { name: "Services", id: "services" },
+        { name: "Contact", id: "contact" },
       ]}
       brandName="Benak Consulting LLC"
     />
@@ -47,16 +42,13 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroBillboardTestimonial
       useInvertedBackground={false}
-      background={{
-        variant: "plain"}}
+      background={{ variant: "plain" }}
       title="Connecting Businesses with Trusted IT Talent."
       description="Benak Consulting LLC provides professional IT staffing and consulting solutions for businesses seeking skilled technology professionals, dependable project support, and experienced consulting services."
       testimonials={[
         { name: "Sarah Johnson", handle: "@techcorp", testimonial: "Benak Consulting provided us with exceptional talent that transformed our project roadmap.", rating: 5 },
         { name: "Michael Chen", handle: "@innovatelab", testimonial: "Reliable communication and deep technical expertise every single time.", rating: 5 },
         { name: "Emily Rodriguez", handle: "@growthco", testimonial: "They truly understand our staffing needs and deliver quality professionals fast.", rating: 5 },
-        { name: "David Kim", handle: "@startupxyz", testimonial: "An incredible consulting partner for long-term project support.", rating: 5 },
-        { name: "Alex Rivera", handle: "@enterprisetech", testimonial: "The best experience we have had with an IT consulting firm in years.", rating: 5 },
       ]}
       buttons={[
         { text: "Contact Us", href: "/contact" },
@@ -71,11 +63,10 @@ export default function LandingPage() {
       useInvertedBackground={false}
       tag="About Us"
       title="20 Years of IT Excellence"
-      description="Benak Consulting LLC is an IT staffing and consulting business focused on helping organizations connect with skilled technology professionals. With around 20 years of professional experience, our team understands the importance of reliable communication, qualified talent, and client-focused service."
-      subdescription="We work with businesses that need technology support, consulting resources, or staffing assistance for ongoing operations and project-based needs. Our approach is formal, responsive, and built around long-term professional relationships."
+      description={["Benak Consulting LLC is an IT staffing and consulting business focused on helping organizations connect with skilled technology professionals."]}
+      subdescription="We work with businesses that need technology support, consulting resources, or staffing assistance for ongoing operations and project-based needs."
       icon={Users}
       imageSrc="http://img.b2bpic.net/free-photo/showing-curious-data_1098-14123.jpg?_wi=1"
-      mediaAnimation="slide-up"
     />
   </div>
 
@@ -88,7 +79,6 @@ export default function LandingPage() {
         { id: "f1", title: "IT Staffing", descriptions: ["Identifying qualified technology professionals for project-based, contract, and long-term staffing needs."] },
         { id: "f2", title: "IT Consulting", descriptions: ["Planning, managing, and executing technology initiatives with experienced consulting resources."] },
         { id: "f3", title: "Reliable Support", descriptions: ["Dependable service delivery built on 20 years of professional consulting experience."] },
-        { id: "f4", title: "Technical Areas", descriptions: ["Specialized support in Software Development, Database/Data, Cloud, Infrastructure, Business Analysis, and QA."] },
       ]}
       title="Professional IT Services"
       description="Comprehensive technology solutions tailored to your business needs."
@@ -119,6 +109,7 @@ export default function LandingPage() {
       author="Chief Technical Officer, TechSolutions Group"
       ratingAnimation="slide-up"
       avatarsAnimation="blur-reveal"
+      avatars={[{ src: "https://i.pravatar.cc/100?u=1", alt: "Author avatar" }]}
     />
   </div>
 
@@ -127,12 +118,11 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       faqs={[
-        { id: "q1", title: "What kind of IT staffing do you support?", content: "We support contract, project-based, and long-term staffing for a variety of IT roles including developers, analysts, and infrastructure experts." },
-        { id: "q2", title: "Do you provide consulting services?", content: "Yes, our consulting services help organizations plan, manage, and execute technology initiatives with our experienced experts." },
-        { id: "q3", title: "How long has Benak Consulting been in business?", content: "Our team brings around 20 years of professional IT consulting and staffing experience to every client project." },
+        { id: "q1", title: "What kind of IT staffing do you support?", content: "We support contract, project-based, and long-term staffing." },
+        { id: "q2", title: "Do you provide consulting services?", content: "Yes, our consulting services help organizations plan, manage, and execute technology initiatives." },
       ]}
       title="Frequently Asked Questions"
-      description="Answers to common inquiries about our staffing and consulting process."
+      description="Answers to common inquiries."
       faqsAnimation="slide-up"
     />
   </div>
@@ -140,8 +130,7 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterLogoEmphasis
       columns={[
-        { items: [{ label: "Home", href: "/" }, { label: "About Us", href: "/#about" }, { label: "Services", href: "/#services" }, { label: "Contact", href: "/contact" }] },
-        { items: [{ label: "LinkedIn (Beena)", href: "#" }, { label: "LinkedIn (Deepa)", href: "#" }] },
+        { items: [{ label: "Home", href: "/" }, { label: "Contact", href: "/contact" }] }
       ]}
       logoText="Benak Consulting LLC"
     />
