@@ -41,8 +41,6 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroBillboardTestimonial
-      useInvertedBackground={false}
-      background={{ variant: "plain" }}
       title="Connecting Businesses with Trusted IT Talent."
       description="Benak Consulting LLC provides professional IT staffing and consulting solutions for businesses seeking skilled technology professionals, dependable project support, and experienced consulting services."
       testimonials={[
@@ -60,10 +58,9 @@ export default function LandingPage() {
 
   <div id="about" data-section="about">
       <TestimonialAboutCard
-      useInvertedBackground={false}
       tag="About Us"
       title="20 Years of IT Excellence"
-      description={["Benak Consulting LLC is an IT staffing and consulting business focused on helping organizations connect with skilled technology professionals."]}
+      description="Benak Consulting LLC is an IT staffing and consulting business focused on helping organizations connect with skilled technology professionals."
       subdescription="We work with businesses that need technology support, consulting resources, or staffing assistance for ongoing operations and project-based needs."
       icon={Users}
       imageSrc="http://img.b2bpic.net/free-photo/showing-curious-data_1098-14123.jpg?_wi=1"
@@ -74,7 +71,6 @@ export default function LandingPage() {
       <FeatureCardTwentySeven
       animationType="slide-up"
       textboxLayout="split"
-      useInvertedBackground={false}
       features={[
         { id: "f1", title: "IT Staffing", descriptions: ["Identifying qualified technology professionals for project-based, contract, and long-term staffing needs."] },
         { id: "f2", title: "IT Consulting", descriptions: ["Planning, managing, and executing technology initiatives with experienced consulting resources."] },
@@ -90,7 +86,6 @@ export default function LandingPage() {
       animationType="slide-up"
       textboxLayout="split"
       gridVariant="uniform-all-items-equal"
-      useInvertedBackground={false}
       metrics={[
         { id: "m1", value: "20+", title: "Years Experience", description: "Professional IT and staffing history.", icon: Award },
         { id: "m2", value: "500+", title: "Professionals", description: "Highly qualified talent network.", icon: Users },
@@ -103,7 +98,6 @@ export default function LandingPage() {
 
   <div id="testimonial" data-section="testimonial">
       <TestimonialCardFifteen
-      useInvertedBackground={false}
       testimonial="Benak Consulting has been instrumental in scaling our engineering team effectively. Their commitment to matching qualified professionals is unmatched."
       rating={5}
       author="Chief Technical Officer, TechSolutions Group"
@@ -116,7 +110,6 @@ export default function LandingPage() {
   <div id="faq" data-section="faq">
       <FaqDouble
       textboxLayout="split"
-      useInvertedBackground={false}
       faqs={[
         { id: "q1", title: "What kind of IT staffing do you support?", content: "We support contract, project-based, and long-term staffing." },
         { id: "q2", title: "Do you provide consulting services?", content: "Yes, our consulting services help organizations plan, manage, and execute technology initiatives." },
