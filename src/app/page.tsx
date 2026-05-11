@@ -33,7 +33,7 @@ export default function LandingPage() {
         { name: "Home", id: "hero" },
         { name: "About Us", id: "about" },
         { name: "Services", id: "services" },
-        { name: "Contact", id: "contact" },
+        { name: "Contact", id: "/contact" },
       ]}
       brandName="Benak Consulting LLC"
     />
@@ -119,7 +119,10 @@ export default function LandingPage() {
       faqs={[
         { id: "q1", title: "What kind of IT staffing do you support?", content: "We support contract, project-based, and long-term staffing. Our streamlined onboarding process ensures a industry-leading time-to-fill, typically identifying and vetting top-tier candidates within 5-7 business days." },
         { id: "q2", title: "Do you provide consulting services?", content: "Yes, our consulting services help organizations plan, manage, and execute technology initiatives. We leverage our network to rapidly onboard experts to minimize project downtime." },
-        { id: "q3", title: "What is your process for candidate vetting?", content: "We conduct rigorous technical assessments, background checks, and cultural fit interviews. This thorough, yet accelerated process allows us to maintain high speed-to-hire without compromising on talent quality." }
+        { id: "q3", title: "What is your process for candidate vetting?", content: "We conduct rigorous technical assessments, background checks, and cultural fit interviews. This thorough, yet accelerated process allows us to maintain high speed-to-hire without compromising on talent quality." },
+        { id: "q4", title: "How do I get started with your services?", content: "You can easily contact us via our contact form or give us a call. We'll set up an initial consultation to understand your needs and provide a tailored proposal." },
+        { id: "q5", title: "Are there any long-term commitments?", content: "We offer flexible engagement models tailored to your project scope and duration. Our goal is to provide the support you need, when you need it."},
+        { id: "q6", title: "Do you support international clients?", content: "Currently, we focus on providing services within the United States to ensure we meet high regulatory and quality standards, but we are open to discussing global partnerships on a case-by-case basis." }
       ]}
       title="Frequently Asked Questions"
       description="Answers to common inquiries."
