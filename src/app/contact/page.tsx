@@ -10,11 +10,21 @@ export default function ContactPage() {
   const [formData, setFormData] = useState({ name: "", email: "", subject: "", message: "" });
 
   return (
-    <ThemeProvider>
+    <ThemeProvider
+        defaultButtonVariant="icon-arrow"
+        defaultTextAnimation="reveal-blur"
+        borderRadius="rounded"
+        contentWidth="mediumSmall"
+        sizing="mediumLargeSizeLargeTitles"
+        background="floatingGradient"
+        cardStyle="subtle-shadow"
+        primaryButtonStyle="shadow"
+        secondaryButtonStyle="solid"
+        headingFontWeight="normal"
+    >
       <ReactLenis root>
         <NavbarLayoutFloatingOverlay
           navItems={[{ name: "Home", id: "/" }, { name: "Contact", id: "/contact" }]}
-          brandName="Benak Consulting LLC"
         />
         <div className="pt-32 pb-16 px-6 max-w-4xl mx-auto">
           <h1 className="text-4xl font-bold mb-8">Contact Us</h1>
@@ -26,12 +36,12 @@ export default function ContactPage() {
               <p className="mb-2"><strong>Email:</strong> info@benakconsulting.com</p>
               <p><strong>Hours:</strong> Mon-Fri, 9am - 5pm</p>
             </div>
-            <form className="flex flex-col gap-4">
+            <form className="flex flex-col gap-4" onSubmit={(e) => e.preventDefault()}>
               <input type="text" placeholder="Full Name" className="p-3 border rounded" required onChange={(e) => setFormData({...formData, name: e.target.value})} />
               <input type="email" placeholder="Email" className="p-3 border rounded" required onChange={(e) => setFormData({...formData, email: e.target.value})} />
               <input type="text" placeholder="Company/Subject" className="p-3 border rounded" required onChange={(e) => setFormData({...formData, subject: e.target.value})} />
               <textarea placeholder="Message" rows={5} className="p-3 border rounded" required onChange={(e) => setFormData({...formData, message: e.target.value})} />
-              <button type="submit" className="bg-primary-cta text-white p-3 rounded font-semibold">Send Message</button>
+              <button type="submit" className="p-3 rounded font-semibold">Send Message</button>
             </form>
           </div>
         </div>
