@@ -118,6 +118,7 @@ export default function LandingPage() {
       faqs={[
         { id: "q1", title: "What kind of IT staffing do you support?", content: "We support contract, project-based, and long-term staffing." },
         { id: "q2", title: "Do you provide consulting services?", content: "Yes, our consulting services help organizations plan, manage, and execute technology initiatives." },
+        { id: "q3", title: "What is your process for candidate vetting?", content: "We conduct rigorous technical assessments, background checks, and cultural fit interviews to ensure only the most qualified professionals join your team." }
       ]}
       title="Frequently Asked Questions"
       description="Answers to common inquiries."
