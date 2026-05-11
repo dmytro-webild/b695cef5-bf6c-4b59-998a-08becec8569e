@@ -50,7 +50,6 @@ export default function LandingPage() {
       ]}
       buttons={[
         { text: "Contact Us", href: "/contact" },
-        { text: "View Services", href: "/services" },
       ]}
       background={{ variant: "plain" }}
       imageSrc="http://img.b2bpic.net/free-photo/two-business-woman-working-office-with-digital-tablet_1301-3550.jpg?_wi=1"
