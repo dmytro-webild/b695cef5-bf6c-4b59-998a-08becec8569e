@@ -116,9 +116,9 @@ export default function LandingPage() {
       <FaqDouble
       textboxLayout="split"
       faqs={[
-        { id: "q1", title: "What kind of IT staffing do you support?", content: "We support contract, project-based, and long-term staffing." },
-        { id: "q2", title: "Do you provide consulting services?", content: "Yes, our consulting services help organizations plan, manage, and execute technology initiatives." },
-        { id: "q3", title: "What is your process for candidate vetting?", content: "We conduct rigorous technical assessments, background checks, and cultural fit interviews to ensure only the most qualified professionals join your team." }
+        { id: "q1", title: "What kind of IT staffing do you support?", content: "We support contract, project-based, and long-term staffing. Our streamlined onboarding process ensures a industry-leading time-to-fill, typically identifying and vetting top-tier candidates within 5-7 business days." },
+        { id: "q2", title: "Do you provide consulting services?", content: "Yes, our consulting services help organizations plan, manage, and execute technology initiatives. We leverage our network to rapidly onboard experts to minimize project downtime." },
+        { id: "q3", title: "What is your process for candidate vetting?", content: "We conduct rigorous technical assessments, background checks, and cultural fit interviews. This thorough, yet accelerated process allows us to maintain high speed-to-hire without compromising on talent quality." }
       ]}
       title="Frequently Asked Questions"
       description="Answers to common inquiries."
