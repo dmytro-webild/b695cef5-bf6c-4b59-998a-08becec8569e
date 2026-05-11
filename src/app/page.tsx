@@ -32,13 +32,21 @@ export default function LandingPage() {
       <NavbarLayoutFloatingOverlay
       navItems={[
         {
-          name: "Home",          id: "hero"},
+          name: "Home",
+          id: "hero",
+        },
         {
-          name: "About Us",          id: "about"},
+          name: "About Us",
+          id: "about",
+        },
         {
-          name: "Services",          id: "services"},
+          name: "Services",
+          id: "services",
+        },
         {
-          name: "Contact Us",          id: "contact"},
+          name: "Contact Us",
+          id: "contact",
+        },
       ]}
       brandName="Benak Consulting LLC"
     />
@@ -48,48 +56,101 @@ export default function LandingPage() {
       <HeroBillboardTestimonial
       useInvertedBackground={false}
       background={{
-        variant: "plain"}}
+        variant: "plain",
+      }}
       title="Connecting Businesses with Trusted IT Talent."
       description="Benak Consulting LLC provides professional IT staffing and consulting solutions for businesses seeking skilled technology professionals, dependable project support, and experienced consulting services."
       testimonials={[
         {
-          name: "Sarah Johnson",          handle: "@techcorp",          testimonial: "Benak Consulting provided us with exceptional talent that transformed our project roadmap.",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png?_wi=1"},
+          name: "Sarah Johnson",
+          handle: "@techcorp",
+          testimonial: "Benak Consulting provided us with exceptional talent that transformed our project roadmap.",
+          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/happy-united-multiethnic-team-posing-office-hall_1262-20246.jpg?_wi=1",
+        },
         {
-          name: "Michael Chen",          handle: "@innovatelab",          testimonial: "Reliable communication and deep technical expertise every single time.",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png?_wi=2"},
+          name: "Michael Chen",
+          handle: "@innovatelab",
+          testimonial: "Reliable communication and deep technical expertise every single time.",
+          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/closeup-satisfied-bearded-guy-white-shirt-showing-thumbs-up-approval-like-agree-positiv_1258-113975.jpg",
+        },
         {
-          name: "Emily Rodriguez",          handle: "@growthco",          testimonial: "They truly understand our staffing needs and deliver quality professionals fast.",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png?_wi=3"},
+          name: "Emily Rodriguez",
+          handle: "@growthco",
+          testimonial: "They truly understand our staffing needs and deliver quality professionals fast.",
+          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/young-businessman-happy-expression_1194-1602.jpg",
+        },
         {
-          name: "David Kim",          handle: "@startupxyz",          testimonial: "An incredible consulting partner for long-term project support.",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png?_wi=4"},
+          name: "David Kim",
+          handle: "@startupxyz",
+          testimonial: "An incredible consulting partner for long-term project support.",
+          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/smiling-young-businessman-suit-looking-camera-meeting_1163-4654.jpg",
+        },
         {
-          name: "Alex Rivera",          handle: "@enterprisetech",          testimonial: "The best experience we have had with an IT consulting firm in years.",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png?_wi=5"},
+          name: "Alex Rivera",
+          handle: "@enterprisetech",
+          testimonial: "The best experience we have had with an IT consulting firm in years.",
+          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-stylish-woman_23-2148323518.jpg",
+        },
       ]}
       buttons={[
         {
-          text: "Contact Us",          href: "#contact"},
+          text: "Contact Us",
+          href: "#contact",
+        },
         {
-          text: "View Services",          href: "#services"},
+          text: "View Services",
+          href: "#services",
+        },
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png?_wi=6"
+      imageSrc="http://img.b2bpic.net/free-photo/two-business-woman-working-office-with-digital-tablet_1301-3550.jpg?_wi=1"
       avatars={[
         {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png",          alt: "Logo"},
+          src: "http://img.b2bpic.net/free-photo/smiling-african-businessman-wearing-suit-headshot-vertical-portrait-with-team_1163-3924.jpg",
+          alt: "Smiling african businessman wearing suit",
+        },
+        {
+          src: "http://img.b2bpic.net/free-photo/confident-cheerful-businesswoman_1262-21021.jpg",
+          alt: "Confident cheerful businesswoman",
+        },
+        {
+          src: "http://img.b2bpic.net/free-photo/positive-confident-businessman-posing-outside_74855-1183.jpg",
+          alt: "Positive confident businessman posing outside",
+        },
+        {
+          src: "http://img.b2bpic.net/free-photo/portrait-happy-businessman-with-crossed-arms_23-2147955274.jpg",
+          alt: "Portrait of a happy businessman with crossed arms",
+        },
+        {
+          src: "http://img.b2bpic.net/free-photo/smiling-successful-middle-aged-business-leader_1262-5690.jpg",
+          alt: "Smiling Successful Middle-aged Business Leader",
+        },
       ]}
       marqueeItems={[
         {
-          type: "text",          text: "20 Years Excellence"},
+          type: "text",
+          text: "20 Years Excellence",
+        },
         {
-          type: "text",          text: "Expert IT Staffing"},
+          type: "text",
+          text: "Expert IT Staffing",
+        },
         {
-          type: "text",          text: "Consulting Solutions"},
+          type: "text",
+          text: "Consulting Solutions",
+        },
         {
-          type: "text",          text: "Reliable Talent"},
+          type: "text",
+          text: "Reliable Talent",
+        },
         {
-          type: "text",          text: "Proven Success"},
+          type: "text",
+          text: "Proven Success",
+        },
       ]}
     />
   </div>
@@ -102,7 +163,7 @@ export default function LandingPage() {
       description="Benak Consulting LLC is an IT staffing and consulting business focused on helping organizations connect with skilled technology professionals. With around 20 years of professional experience, our team understands the importance of reliable communication, qualified talent, and client-focused service."
       subdescription="We work with businesses that need technology support, consulting resources, or staffing assistance for ongoing operations and project-based needs. Our approach is formal, responsive, and built around long-term professional relationships."
       icon={Users}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png?_wi=7"
+      imageSrc="http://img.b2bpic.net/free-photo/showing-curious-data_1098-14123.jpg?_wi=1"
       mediaAnimation="slide-up"
     />
   </div>
@@ -114,21 +175,41 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          id: "f1",          title: "IT Staffing",          descriptions: [
-            "Identifying qualified technology professionals for project-based, contract, and long-term staffing needs."],
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png?_wi=8",          imageAlt: "Service Image"},
+          id: "f1",
+          title: "IT Staffing",
+          descriptions: [
+            "Identifying qualified technology professionals for project-based, contract, and long-term staffing needs.",
+          ],
+          imageSrc: "http://img.b2bpic.net/free-photo/luxurious-business-environment-used-corporate-culture-industry_482257-125612.jpg",
+          imageAlt: "Luxurious business environment used in corporate culture and the industry",
+        },
         {
-          id: "f2",          title: "IT Consulting",          descriptions: [
-            "Planning, managing, and executing technology initiatives with experienced consulting resources."],
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png?_wi=9",          imageAlt: "Service Image"},
+          id: "f2",
+          title: "IT Consulting",
+          descriptions: [
+            "Planning, managing, and executing technology initiatives with experienced consulting resources.",
+          ],
+          imageSrc: "http://img.b2bpic.net/free-photo/two-business-woman-working-office-with-digital-tablet_1301-3550.jpg?_wi=2",
+          imageAlt: "Luxurious business environment used in corporate culture and the industry",
+        },
         {
-          id: "f3",          title: "Reliable Support",          descriptions: [
-            "Dependable service delivery built on 20 years of professional consulting experience."],
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png?_wi=10",          imageAlt: "Service Image"},
+          id: "f3",
+          title: "Reliable Support",
+          descriptions: [
+            "Dependable service delivery built on 20 years of professional consulting experience.",
+          ],
+          imageSrc: "http://img.b2bpic.net/free-photo/showing-curious-data_1098-14123.jpg?_wi=2",
+          imageAlt: "Luxurious business environment used in corporate culture and the industry",
+        },
         {
-          id: "f4",          title: "Technical Areas",          descriptions: [
-            "Specialized support in Software Development, Database/Data, Cloud, Infrastructure, Business Analysis, and QA."],
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png?_wi=11",          imageAlt: "Service Image"},
+          id: "f4",
+          title: "Technical Areas",
+          descriptions: [
+            "Specialized support in Software Development, Database/Data, Cloud, Infrastructure, Business Analysis, and QA.",
+          ],
+          imageSrc: "http://img.b2bpic.net/free-photo/happy-united-multiethnic-team-posing-office-hall_1262-20246.jpg?_wi=2",
+          imageAlt: "Luxurious business environment used in corporate culture and the industry",
+        },
       ]}
       title="Professional IT Services"
       description="Comprehensive technology solutions tailored to your business needs."
@@ -143,13 +224,25 @@ export default function LandingPage() {
       useInvertedBackground={false}
       metrics={[
         {
-          id: "m1",          value: "20+",          title: "Years Experience",          description: "Professional IT and staffing history.",          icon: Award,
+          id: "m1",
+          value: "20+",
+          title: "Years Experience",
+          description: "Professional IT and staffing history.",
+          icon: Award,
         },
         {
-          id: "m2",          value: "500+",          title: "Professionals",          description: "Highly qualified talent network.",          icon: Users,
+          id: "m2",
+          value: "500+",
+          title: "Professionals",
+          description: "Highly qualified talent network.",
+          icon: Users,
         },
         {
-          id: "m3",          value: "100%",          title: "Client-Focused",          description: "Commitment to project success.",          icon: Target,
+          id: "m3",
+          value: "100%",
+          title: "Client-Focused",
+          description: "Commitment to project success.",
+          icon: Target,
         },
       ]}
       title="Proven Results"
@@ -165,7 +258,25 @@ export default function LandingPage() {
       author="Chief Technical Officer, TechSolutions Group"
       avatars={[
         {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778529182671-0qz5etsj.png",          alt: "Client"},
+          src: "http://img.b2bpic.net/free-photo/positive-middle-aged-business-leader-window_1262-5388.jpg",
+          alt: "Client 1",
+        },
+        {
+          src: "http://img.b2bpic.net/free-photo/smiling-businessman-listening-senior-man_1262-1970.jpg",
+          alt: "Client 2",
+        },
+        {
+          src: "http://img.b2bpic.net/free-photo/portrait-confident-businesswoman-office_329181-19343.jpg",
+          alt: "Client 3",
+        },
+        {
+          src: "http://img.b2bpic.net/free-photo/closeup-smiling-senior-business-man-relaxing_1262-2369.jpg",
+          alt: "Client 4",
+        },
+        {
+          src: "http://img.b2bpic.net/free-photo/close-up-positive-executive-work_1098-519.jpg",
+          alt: "Client 5",
+        },
       ]}
       ratingAnimation="slide-up"
       avatarsAnimation="blur-reveal"
@@ -178,11 +289,20 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "q1",          title: "What kind of IT staffing do you support?",          content: "We support contract, project-based, and long-term staffing for a variety of IT roles including developers, analysts, and infrastructure experts."},
+          id: "q1",
+          title: "What kind of IT staffing do you support?",
+          content: "We support contract, project-based, and long-term staffing for a variety of IT roles including developers, analysts, and infrastructure experts.",
+        },
         {
-          id: "q2",          title: "Do you provide consulting services?",          content: "Yes, our consulting services help organizations plan, manage, and execute technology initiatives with our experienced experts."},
+          id: "q2",
+          title: "Do you provide consulting services?",
+          content: "Yes, our consulting services help organizations plan, manage, and execute technology initiatives with our experienced experts.",
+        },
         {
-          id: "q3",          title: "How long has Benak Consulting been in business?",          content: "Our team brings around 20 years of professional IT consulting and staffing experience to every client project."},
+          id: "q3",
+          title: "How long has Benak Consulting been in business?",
+          content: "Our team brings around 20 years of professional IT consulting and staffing experience to every client project.",
+        },
       ]}
       title="Frequently Asked Questions"
       description="Answers to common inquiries about our staffing and consulting process."
@@ -194,13 +314,18 @@ export default function LandingPage() {
       <ContactText
       useInvertedBackground={false}
       background={{
-        variant: "plain"}}
+        variant: "plain",
+      }}
       text="Get in touch today. Our team is ready to discuss how we can support your business with reliable IT staffing and consulting services. Contact us at info@benakconsulting.com or visit us in Suwanee, GA."
       buttons={[
         {
-          text: "Call 732-579-2932",          href: "tel:7325792932"},
+          text: "Call 732-579-2932",
+          href: "tel:7325792932",
+        },
         {
-          text: "Email Us",          href: "mailto:info@benakconsulting.com"},
+          text: "Email Us",
+          href: "mailto:info@benakconsulting.com",
+        },
       ]}
     />
   </div>
@@ -211,21 +336,33 @@ export default function LandingPage() {
         {
           items: [
             {
-              label: "Home",              href: "#hero"},
+              label: "Home",
+              href: "#hero",
+            },
             {
-              label: "About Us",              href: "#about"},
+              label: "About Us",
+              href: "#about",
+            },
             {
-              label: "Services",              href: "#services"},
+              label: "Services",
+              href: "#services",
+            },
             {
-              label: "Contact Us",              href: "#contact"},
+              label: "Contact Us",
+              href: "#contact",
+            },
           ],
         },
         {
           items: [
             {
-              label: "LinkedIn (Beena)",              href: "https://linkedin.com/in/beenasidharthan"},
+              label: "LinkedIn (Beena)",
+              href: "https://linkedin.com/in/beenasidharthan",
+            },
             {
-              label: "LinkedIn (Deepa)",              href: "https://linkedin.com/in/deepapcs"},
+              label: "LinkedIn (Deepa)",
+              href: "https://linkedin.com/in/deepapcs",
+            },
           ],
         },
       ]}
