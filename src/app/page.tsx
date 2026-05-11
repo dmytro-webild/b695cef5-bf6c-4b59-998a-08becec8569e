@@ -73,13 +73,14 @@ export default function LandingPage() {
       animationType="slide-up"
       textboxLayout="split"
       features={[
-        { id: "f1", title: "IT Staffing", descriptions: ["Identifying qualified technology professionals for project-based, contract, and long-term staffing needs."] },
-        { id: "f2", title: "IT Consulting", descriptions: ["Planning, managing, and executing technology initiatives with experienced consulting resources."] },
-        { id: "f3", title: "Reliable Support", descriptions: ["Dependable service delivery built on 20 years of professional consulting experience."] },
+        { id: "f1", title: "IT Staffing", descriptions: ["We provide comprehensive IT staffing services, including deep-dive candidate screening, technical proficiency assessment, and cultural alignment. Our database of over 500+ pre-vetted professionals covers roles in cloud engineering, cybersecurity, data science, and software development, ensuring we bridge the skill gaps in your current team rapidly."] },
+        { id: "f2", title: "IT Consulting", descriptions: ["Our IT consulting services offer strategic guidance for complex technology roadmaps. From digital transformation initiatives to legacy system modernization, we provide expert senior consultants who act as extensions of your leadership, ensuring your IT infrastructure is robust, scalable, and optimized for long-term growth."] },
+        { id: "f3", title: "Reliable Support", descriptions: ["With 20 years of proven experience, we offer continuous, dependable support for your ongoing technology needs. We focus on minimizing downtime through proactive monitoring, rapid incident response, and personalized service level agreements tailored to the unique operational requirements of your business."] },
       ]}
       title="Professional IT Services"
       description="Comprehensive technology solutions tailored to your business needs."
       useInvertedBackground={false}
+      textBoxClassName="flex flex-col items-center text-center"
     />
   </div>
 
@@ -106,7 +107,8 @@ export default function LandingPage() {
       author="Chief Technical Officer, TechSolutions Group"
       ratingAnimation="slide-up"
       avatarsAnimation="blur-reveal"
-      avatars={[{ src: "https://i.pravatar.cc/100?u=1", alt: "Author avatar" }]}
+      avatars={[{ src: "https://i.pravatar.cc/100?u=1", alt: "Author avatar" }]
+      }
       useInvertedBackground={false}
     />
   </div>
