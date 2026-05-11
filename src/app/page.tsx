@@ -66,7 +66,7 @@ export default function LandingPage() {
           handle: "@techcorp",
           testimonial: "Benak Consulting provided us with exceptional talent that transformed our project roadmap.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/happy-united-multiethnic-team-posing-office-hall_1262-20246.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/happy-united-multiethnic-team-posing-office-hall_1262-20246.jpg?_wi=1",
         },
         {
           name: "Michael Chen",
@@ -107,7 +107,7 @@ export default function LandingPage() {
           href: "#services",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/two-business-woman-working-office-with-digital-tablet_1301-3550.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/two-business-woman-working-office-with-digital-tablet_1301-3550.jpg?_wi=1"
       avatars={[
         {
           src: "http://img.b2bpic.net/free-photo/smiling-african-businessman-wearing-suit-headshot-vertical-portrait-with-team_1163-3924.jpg",
@@ -163,7 +163,7 @@ export default function LandingPage() {
       description="Benak Consulting LLC is an IT staffing and consulting business focused on helping organizations connect with skilled technology professionals. With around 20 years of professional experience, our team understands the importance of reliable communication, qualified talent, and client-focused service."
       subdescription="We work with businesses that need technology support, consulting resources, or staffing assistance for ongoing operations and project-based needs. Our approach is formal, responsive, and built around long-term professional relationships."
       icon={Users}
-      imageSrc="http://img.b2bpic.net/free-photo/showing-curious-data_1098-14123.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/showing-curious-data_1098-14123.jpg?_wi=1"
       mediaAnimation="slide-up"
     />
   </div>
@@ -189,7 +189,7 @@ export default function LandingPage() {
           descriptions: [
             "Planning, managing, and executing technology initiatives with experienced consulting resources.",
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/two-business-woman-working-office-with-digital-tablet_1301-3550.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/two-business-woman-working-office-with-digital-tablet_1301-3550.jpg?_wi=2",
           imageAlt: "Luxurious business environment used in corporate culture and the industry",
         },
         {
@@ -198,7 +198,7 @@ export default function LandingPage() {
           descriptions: [
             "Dependable service delivery built on 20 years of professional consulting experience.",
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/showing-curious-data_1098-14123.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/showing-curious-data_1098-14123.jpg?_wi=2",
           imageAlt: "Luxurious business environment used in corporate culture and the industry",
         },
         {
@@ -207,7 +207,7 @@ export default function LandingPage() {
           descriptions: [
             "Specialized support in Software Development, Database/Data, Cloud, Infrastructure, Business Analysis, and QA.",
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/happy-united-multiethnic-team-posing-office-hall_1262-20246.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/happy-united-multiethnic-team-posing-office-hall_1262-20246.jpg?_wi=2",
           imageAlt: "Luxurious business environment used in corporate culture and the industry",
         },
       ]}
