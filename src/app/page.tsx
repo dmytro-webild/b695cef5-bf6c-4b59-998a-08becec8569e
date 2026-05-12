@@ -36,6 +36,7 @@ export default function LandingPage() {
         { name: "Contact", id: "/contact" },
       ]}
       logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778597600633-cjlo78tg.png"
+      logoClassName="scale-150"
     />
   </div>
 
