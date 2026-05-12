@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
-import NavbarLayoutFloatingOverlay from "@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay";
+import NavbarLayoutFloatingInline from "@/components/navbar/NavbarLayoutFloatingInline";
 import FooterLogoEmphasis from "@/components/sections/footer/FooterLogoEmphasis";
 import ReactLenis from "lenis/react";
 
@@ -23,10 +23,11 @@ export default function ContactPage() {
         headingFontWeight="normal"
     >
       <ReactLenis root>
-        <NavbarLayoutFloatingOverlay
+        <NavbarLayoutFloatingInline
           navItems={[{ name: "Home", id: "/" }, { name: "Contact", id: "/contact" }]}
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778597600633-cjlo78tg.png"
-          logoClassName="scale-150"
+          logoClassName="scale-[2.5]"
+          className="py-6"
         />
         <div className="pt-32 pb-16 px-6 max-w-4xl mx-auto">
           <h1 className="text-4xl font-bold mb-8">Contact Us</h1>
