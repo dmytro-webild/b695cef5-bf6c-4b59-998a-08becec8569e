@@ -26,6 +26,7 @@ export default function ContactPage() {
         <NavbarLayoutFloatingOverlay
           navItems={[{ name: "Home", id: "/" }, { name: "Contact", id: "/contact" }]}
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778597600633-cjlo78tg.png"
+          logoClassName="scale-150"
         />
         <div className="pt-32 pb-16 px-6 max-w-4xl mx-auto">
           <h1 className="text-4xl font-bold mb-8">Contact Us</h1>
