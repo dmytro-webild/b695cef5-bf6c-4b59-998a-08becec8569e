@@ -7,7 +7,7 @@ import FeatureCardTwentySeven from '@/components/sections/feature/FeatureCardTwe
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 import HeroBillboardTestimonial from '@/components/sections/hero/HeroBillboardTestimonial';
 import MetricCardOne from '@/components/sections/metrics/MetricCardOne';
-import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
+import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
 import TestimonialCardFifteen from '@/components/sections/testimonial/TestimonialCardFifteen';
 import { Award, Target, Users } from "lucide-react";
@@ -28,7 +28,7 @@ export default function LandingPage() {
     >
       <ReactLenis root>
   <div id="nav" data-section="nav">
-      <NavbarLayoutFloatingOverlay
+      <NavbarLayoutFloatingInline
       navItems={[
         { name: "Home", id: "hero" },
         { name: "About Us", id: "about" },
@@ -36,7 +36,9 @@ export default function LandingPage() {
         { name: "Contact", id: "/contact" },
       ]}
       logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778597600633-cjlo78tg.png"
-      logoClassName="scale-150"
+      logoClassName="scale-[2.5]"
+      className="py-6"
+      button={{ text: "Get Started", href: "/contact" }}
     />
   </div>
 
