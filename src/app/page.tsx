@@ -35,7 +35,7 @@ export default function LandingPage() {
         { name: "Services", id: "services" },
         { name: "Contact", id: "/contact" },
       ]}
-      brandName="Benak Consulting LLC"
+      logoSrc="https://img.b2bpic.net/free-photo/two-business-woman-working-office-with-digital-tablet_1301-3550.jpg?_wi=1"
     />
   </div>
 
