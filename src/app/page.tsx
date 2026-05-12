@@ -51,9 +51,6 @@ export default function LandingPage() {
         { name: "Michael Chen", handle: "@innovatelab", testimonial: "Reliable communication and deep technical expertise every single time.", rating: 5 },
         { name: "Emily Rodriguez", handle: "@growthco", testimonial: "They truly understand our staffing needs and deliver quality professionals fast.", rating: 5 },
       ]}
-      buttons={[
-        { text: "", href: "/contact" },
-      ]}
       background={{ variant: "plain" }}
       imageSrc="http://img.b2bpic.net/free-photo/two-business-woman-working-office-with-digital-tablet_1301-3550.jpg?_wi=1"
     />
