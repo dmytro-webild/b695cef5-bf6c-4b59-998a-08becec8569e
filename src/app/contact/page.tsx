@@ -52,6 +52,7 @@ export default function ContactPage() {
           columns={[{ items: [{ label: "Home", href: "/" }, { label: "Contact", href: "/contact" }] }]} 
           logoText="Benak Consulting LLC"
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778597600633-cjlo78tg.png"
+          logoClassName="scale-[0.6]"
         />
       </ReactLenis>
     </ThemeProvider>
