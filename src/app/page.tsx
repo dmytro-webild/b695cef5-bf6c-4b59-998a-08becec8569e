@@ -134,7 +134,7 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterBaseCard
       logoText="Benak Consulting LLC"
-      logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778602491420-95nrleel.png"
+      logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778606746621-z4rjlwnr.png"
       logoImageClassName="scale-[2.5]"
       columns={[
         { title: "Company", items: [{ label: "About", href: "/" }, { label: "Contact", href: "/contact" }] },
