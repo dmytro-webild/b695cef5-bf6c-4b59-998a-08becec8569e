@@ -25,6 +25,7 @@ export default function ContactPage() {
       <ReactLenis root>
         <NavbarLayoutFloatingOverlay
           navItems={[{ name: "Home", id: "/" }, { name: "Contact", id: "/contact" }]}
+          logoSrc="https://img.b2bpic.net/free-photo/two-business-woman-working-office-with-digital-tablet_1301-3550.jpg?_wi=1"
         />
         <div className="pt-32 pb-16 px-6 max-w-4xl mx-auto">
           <h1 className="text-4xl font-bold mb-8">Contact Us</h1>
