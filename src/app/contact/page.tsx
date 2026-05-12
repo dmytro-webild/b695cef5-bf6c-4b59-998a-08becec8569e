@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from "@/components/navbar/NavbarLayoutFloatingInline";
-import FooterLogoEmphasis from "@/components/sections/footer/FooterLogoEmphasis";
+import FooterCard from "@/components/sections/footer/FooterCard";
 import ReactLenis from "lenis/react";
 
 export default function ContactPage() {
@@ -48,11 +48,9 @@ export default function ContactPage() {
             <button type="submit" className="p-3 rounded font-semibold">Send Message</button>
           </form>
         </div>
-        <FooterLogoEmphasis
-          columns={[{ items: [{ label: "Home", href: "/" }, { label: "Contact", href: "/contact" }] }]} 
+        <FooterCard
           logoText="Benak Consulting LLC"
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778597600633-cjlo78tg.png"
-          logoClassName="scale-[0.6]"
           className="py-8"
         />
       </ReactLenis>
