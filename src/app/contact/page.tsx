@@ -26,7 +26,7 @@ export default function ContactPage() {
         <NavbarLayoutFloatingInline
           navItems={[{ name: "Home", id: "/" }, { name: "Contact", id: "/contact" }]}
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778597600633-cjlo78tg.png"
-          logoClassName="scale-[1.5]"
+          logoClassName="scale-[2.5]"
           className="py-6"
           button={{ text: "Get Started", href: "/contact" }}
         />
