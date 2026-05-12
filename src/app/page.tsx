@@ -44,7 +44,7 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroBillboardTestimonial
-      title="Connecting Businesses with Trusted IT Talent."
+      title="Connecting Business with Trusted IT Talent."
       description="Benak Consulting LLC provides professional IT staffing and consulting solutions for businesses seeking skilled technology professionals, dependable project support, and experienced consulting services."
       testimonials={[
         { name: "Sarah Johnson", handle: "@techcorp", testimonial: "Benak Consulting provided us with exceptional talent that transformed our project roadmap.", rating: 5 },
