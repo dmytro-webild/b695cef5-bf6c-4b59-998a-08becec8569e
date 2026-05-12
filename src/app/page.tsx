@@ -35,7 +35,7 @@ export default function LandingPage() {
         { name: "Services", id: "services" },
         { name: "Contact", id: "/contact" },
       ]}
-      logoSrc="https://img.b2bpic.net/free-photo/two-business-woman-working-office-with-digital-tablet_1301-3550.jpg?_wi=1"
+      logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778597600633-cjlo78tg.png"
     />
   </div>
 
@@ -137,6 +137,7 @@ export default function LandingPage() {
         { items: [{ label: "Home", href: "/" }, { label: "Contact", href: "/contact" }] }
       ]}
       logoText="Benak Consulting LLC"
+      logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dan5Ic1q1Umi6BwcobeOcsttrO/uploaded-1778597600633-cjlo78tg.png"
     />
   </div>
       </ReactLenis>
